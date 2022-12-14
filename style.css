@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.col1{
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(65, 0, 0);
+}
+
+.col2{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.img img{
+    width:60%;
+    border: 3px solid rgb(177, 3, 3);
+    border-radius:10%;
+}
+
+.img {
+    text-align: center;
+}
+
+.menu{
+    margin: 20%;
+    text-align: center;
+    position: relative;
+}
+
+.menu a{
+    color: rgb(255, 255, 255);
+    opacity: 0.4;
+    font-size: 25px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu a:hover{
+    color: white;
+    opacity: 1;
+}
+
+
+.info{
+    width: 80%;
+    height: 500%; /* aumenta o tamanho da coluna da direita   */
+    position: absolute;
+    left: 20%;
+    overflow-y: auto;
+    padding: 0 3%;
+}
+
+section.resumo{
+    position: relative;
+    top: 7%;
+    transform: translateY(-50);
+}
+section.resumo h2{
+    color: #343a40;
+    font-size: 60px;
+    
+}
+section.resumo h2 > span,
+section.resumo h3 > span
+{
+    color: rgb(177, 3, 3);
+}
+
+section.resumo h3{
+    margin: 3px 0;
+    color: #6c757d;
+    font-size: 23px;
+}
+
+section.resumo p{
+    color: #6c757d;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.icones{
+    margin-top: 30px;
+}
+
+.icones a{
+    width: 40px;
+    height: 40px;
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.educacao img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 3%;
+}
+section.educacao{
+    position: relative;
+    top: 13%;
+    transform: translateY(-50);
+}
+
+section.educacao h2{
+    color: #343a40;
+    font-size: 60px;
+}
+
+.experiencia img{
+    width: 400px;
+    height: 250px;
+}
+section.experiencia{
+    position: relative;
+    top: 28%;
+    transform: translateY(-50);
+}
+
+section.experiencia h2{
+    color: #343a40;
+    font-size: 50px;
+}
+
+section.experiencia p{
+    color: #6c757d;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+section.conhecimento{
+    position: relative;
+    top: 35%;
+    transform: translateY(-50);
+}
+
+section.conhecimento h2{
+    color: #343a40;
+    font-size: 50px;
+}
+
+section.conhecimento img{
+    margin-top: 50px;
+}
+
+.v1{
+    margin: 3% 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.v2{
+    margin: 5% 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.conhecimento img:hover{
+    transform: scale(1.05);
+}
+
+.i1{
+    margin-top: 50px;
+}
+
+section.curso{
+    position: relative;
+    top: 35%;
+    transform: translateY(-50);
+}
+
+section.curso h2{
+    margin-top: 15%;
+    color: #343a40;
+    font-size: 50px;
+}
+
+section.curso p{
+    color: #6c757d;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
